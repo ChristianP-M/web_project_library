@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Envuelve todo el contenido de la página en un nuevo div con la clase page Recuerda agregar la etiqueta de cierre -->
+    <div class="page">
+      <!-- Aqui esta el elemendo "HEADER" -->
+      <header class="header">
+        <!-- Aqui se encuentra el elemento "NAV" -->
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <!-- Aqui se encuentra el elemento MAIN -->
+      <main class="content">
+        <!-- Aqui se encuentra el elemento "SECTION" -->
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Hábitos Atómicos</h3>
+                <p class="card__text">
+                  Hábitos Atómicos me ayudó desde un inicio a formar, que es lo
+                  que quería para mi ser, me ayudó a prepararme a fomentar una
+                  ideología de fijarme en los métodos para mis objetivos.
+                  Gracias a ello, es que a la hora de tomar este curso ya tenía
+                  preparado como iba a abordar las 4 horas diarias, a no
+                  doblegar, y a pesar de los fallos, no dejar de ser insistente.
+                </p>
+                <p class="card__footer">James Clear</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Bioshock: Rapture</h3>
+                <p class="card__text">
+                  Imagina un mundo submarino, una ciudad llamada Rapture,
+                  construida en lo profundo del océano por un hombre llamado
+                  Andrew Ryan. Rapture era como una utopía, un lugar donde la
+                  libertad y la ambición se elevaron por encima de todo. Pero
+                  detrás de su brillante fachada, se escondían oscuros secretos
+                  y peligros. En esta historia, descubrimos cómo la ambición
+                  desmedida, la codicia y la sed de poder transformaron la
+                  promesa de Rapture en una pesadilla. Con cada giro de página,
+                  somos testigos de la fragilidad de la humanidad y de cómo
+                  incluso en un mundo aparentemente perfecto, las sombras pueden
+                  acechar en cada esquina.
+                </p>
+                <p class="card__footer">John Shirley</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Cómo programar en Java Deitel</h3>
+                <p class="card__text">
+                  "El libro 'Cómo Programar en Java Deitel' es una guía completa
+                  para aprender a programar en el lenguaje Java desde cero hasta
+                  niveles avanzados. Escrito por Paul Deitel y Harvey Deitel,
+                  este libro aborda los conceptos fundamentales de la
+                  programación Java, como variables, tipos de datos, estructuras
+                  de control, programación orientada a objetos y más. A través
+                  de ejemplos claros y ejercicios prácticos, los lectores pueden
+                  desarrollar habilidades en el desarrollo de software Java,
+                  incluyendo aplicaciones de escritorio, aplicaciones web y
+                  aplicaciones móviles. El enfoque pedagógico del libro, que
+                  incluye diagramas, listas de objetivos y resúmenes al final de
+                  cada capítulo, lo convierte en una herramienta efectiva tanto
+                  para principiantes como para programadores con experiencia que
+                  desean ampliar sus conocimientos en Java."
+                </p>
+                <p class="card__footer">Paul Deitel y Harvey Deitel</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Código completo: un manual práctico de construcción de
+                  software
+                </h3>
+                <p class="card__text">
+                  ¿Te gustaría saber cómo escribir un buen código
+                  independientemente de la arquitectura detrás del lenguaje de
+                  programación que hayas elegido? Entonces, podrías leer Código
+                  completo: un práctico manual sobre construcción de software.
+                  El cual abarca de forma general todo lo relacionado con la
+                  buena estructura de código.
+                </p>
+                <p class="card__footer">Steve McConnell</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
