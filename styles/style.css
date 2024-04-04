@@ -311,3 +311,115 @@
   font-size: 14px;
   margin: 0;
 }
+
+/* Parte del codigo para proyecto 3 etapa 3 */
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  /* Agrega estilos */
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+
+.footer__column_content_hours {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  height: 80px;
+  width: 58px;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+/* Esta fue mi idea para arreglar que el ultimo elemento no tenga espacio. no se me ocurrio de otra forma :c */
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 10px 0 0;
+}
+
+.footer__copyright {
+  margin: 100px 0 0 0;
+}
