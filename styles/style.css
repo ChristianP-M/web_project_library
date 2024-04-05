@@ -382,6 +382,7 @@
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .footer__logo {
@@ -410,8 +411,11 @@
 }
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
+  align-items: center;
+  column-gap: 16px;
 }
 
 .footer__social-icon {
