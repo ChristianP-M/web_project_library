@@ -398,14 +398,15 @@
   /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
   margin: 0 0;
 }
 
 .footer__list-item {
-  margin: 0 0;
+  margin-bottom: 16px;
+}
+
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__column-link {
