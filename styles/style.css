@@ -398,7 +398,7 @@
   /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .footer__list-item {
